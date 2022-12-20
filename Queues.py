@@ -47,7 +47,10 @@
 #print(fruits)
 
 # Tuple Comparison
-student1 = ("Mark", "Redila", 19)
-student2 = ("Anthony", "Red", 20)
+#student1 = ("Mark", "Redila", 19)
+#student2 = ("Anthony", "Red", 20)
 
-print(student2>student1)
+#print(student2>student1)
+
+
+
