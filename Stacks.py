@@ -32,4 +32,13 @@
     #def dequeue(self):
         #return self._elements.popleft()
 
-print("Hello World") #Test
+# Implementing Queues
+from heapq import heappush
+
+fruits = []
+heappush(fruits, "orange")
+heappush(fruits, "apple")
+heappush(fruits, "banana")
+
+print(fruits)
+
