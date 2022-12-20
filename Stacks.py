@@ -33,16 +33,21 @@
         #return self._elements.popleft()
 
 # Implementing Queues
-from heapq import heappush
+#from heapq import heappush
 
-fruits = []
-heappush(fruits, "orange")
-heappush(fruits, "apple")
-heappush(fruits, "banana")
+#fruits = []
+#heappush(fruits, "orange")
+#heappush(fruits, "apple")
+#heappush(fruits, "banana")
 
 #print(fruits)
 
-from heapq import heappop
-heappop(fruits)
-print(fruits)
+#from heapq import heappop
+#heappop(fruits)
+#print(fruits)
 
+# Tuple Comparison
+student1 = ("Mark", "Redila", 19)
+student2 = ("Anthony", "Red", 20)
+
+print(student2>student1)
