@@ -110,20 +110,20 @@ class View:
                 live.update(self.render)
 
     @property
+
     def render(self):
 
-        self = buffer
-
-            if buffer == PriorityQueue():
+        match self.buffer:
+            case PriorityQueue():
                 title = "Priority Queue"
                 products = map(str, reversed(list(self.buffer.queue)))
-            elif buffer == LifoQueue():
+            case LifoQueue():
                 title = "Stack"
                 products = list(self.buffer.queue)
-            elif buffer == Queue():
+            case Queue():
                 title = "Queue"
                 products = reversed(list(self.buffer.queue))
-            elif buffer == _:
+            case _:
                 title = products = ""
 
         rows = [
@@ -191,6 +191,7 @@ class Consumer(Worker):
             self.simulate_work()
             self.buffer.task_done()
             self.simulate_idle()
+
 def main(args):
     buffer = QUEUE_TYPES[args.queue]()
     producers = [
