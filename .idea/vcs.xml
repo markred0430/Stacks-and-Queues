@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/Audiobook" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Experimenting on Queues" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Experimenting_on_Queues" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Experimenting_on_Queues/Asynchronous_Queues/venv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pythonProject" vcs="Git" />
   </component>
 </project>
